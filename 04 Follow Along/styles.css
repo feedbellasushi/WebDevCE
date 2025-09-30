@@ -1,9 +1,57 @@
 body {
     font-family: "Playfair", serif;
+    margin: 0;
 }
 
 /*header stuff here*/
 header {
 
-    background-color: #0068efd3;
+    background-color: #eaeaea;
+    
+    padding: 10px;
 }
+
+
+header span {
+
+    color: #024873;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+/*nav stuff here*/
+nav  {
+    background-color: #f2b705 ;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+display: flex;
+
+}
+
+nav a {
+
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #024873;
+    font-weight: 700S;
+
+}
+
+nav li.current a {
+
+    background-color: #024873;
+    color: #f2b705;
+}
+
+
+
+nav li a:hover {
+    color: white;
+}
+
