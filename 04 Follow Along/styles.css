@@ -23,6 +23,17 @@ nav  {
     background-color: #f2b705 ;
 }
 
+main {
+
+color: #752811;
+
+
+}
+
+
+
+
+
 nav ul {
 
     margin: 0;
@@ -55,3 +66,18 @@ nav li a:hover {
     color: white;
 }
 
+/*footer stuff here*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+  
+    }
+    
+    footer p {
+    margin: 0;
+      font: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+    
+    }
