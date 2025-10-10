@@ -20,6 +20,14 @@ header span {
     font-weight: 900;
 }
 
+
+main a {
+color: grey;
+
+}
+
+
+
 /** Image Stuff Here**/ 
 
 img {
@@ -29,9 +37,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-
-
 img.wrapped {
     width: 33.3;
     height: auto;
@@ -40,25 +45,27 @@ img.wrapped {
 
 
 
+main { 
+color: #024873;
 
+}
 
 
 /*nav stuff here*/
 
 nav {
+  
+  
+  
+  
+  
+  
+  
+  
   display: flex;
   justify-content: center;
   background-color: #d5e1eb ;
 }
-
-
-main {
-
- 
-color: #024873;
-
-}
-
 
 nav ul {
     
@@ -93,19 +100,29 @@ nav li.current a {
 }
 
 
+
+
+
 /*footer stuff here*/
 
 footer {
     background-color: #eaeaea;
     text-align: center;
     padding: 1rem 0;
-  
     }
-    
     footer p {
     margin: 0;
       font: .8rem;
     color: #333;
     letter-spacing: 3px;
-    
     }
+
+  footer {
+   position: fixed;       
+   bottom: 0;             
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+  }
