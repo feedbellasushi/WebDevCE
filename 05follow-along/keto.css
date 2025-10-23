@@ -99,6 +99,60 @@ main a {
 main a:hover {
     background-color:#eee;
 }
+/*image stuff here*/
+
+ img {
+
+      display: block;
+      margin: 0 auto;
+      max-width: 80%;
+      height: auto;
+    }
+
+    img {
+      width: 35%;
+      height: auto;
+      float: center;
+    }
+
+img {
+width: 33.3%;
+height: auto;
+
+ }
+
+img.wrapped {
+
+width: 33.3%;
+height: auto;
+float: right;
+
+}
+
+figure.food {
+
+margin: 0 0 0 2%;
+width: 25%;
+float: right;
+
+}
+
+figure.food img {
+
+
+width: 90%;
+height: auto;
+
+
+}
+
+figure.food figcaption {
+
+    text-align: center;
+}
+
+
+
 
 /* footer stuff here */
 footer {
