@@ -173,7 +173,7 @@ height: auto;
 }
 
 figure.food figcaption {
-
+    padding: 2px;
     text-align: center;
 }
 
@@ -193,8 +193,6 @@ gap: 20px 10px;
 div.gallery figure {
  
 margin: 0;
-
-
 
 }
 
