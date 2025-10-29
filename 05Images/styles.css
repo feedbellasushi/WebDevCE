@@ -1,129 +1,169 @@
 body {
-    font-family: "Playfair", serif;
-    margin: 0;
+  font-family: "Playfair", serif;
+  margin: 0;
 }
 
 /*header stuff here*/
 header {
-    text-align: center;
-    background-color: #d5e1eb;
-    
-    padding: 15px; color: white;
-  
+  text-align: center;
+  background-color: #d5e1eb;
+
+  padding: 15px;
+  color: white;
+
 }
 
 header span {
-    
-    color: #2a4e6b;
-    font-size: 1.6rem;
-    font-weight: 900;
+
+  color: #2a4e6b;
+  font-size: 1.6rem;
+  font-weight: 900;
 }
 
 
 main a {
-color: grey;
+  color: grey;
 
 }
 
-main { 
-color: #024873;
+main {
+  color: #024873;
 }
 
 
-/** Image Stuff Here**/ 
+/** Image Stuff Here**/
 
 img {
 
-    display: block;
+  display: block;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
 }
+
 img {
-    width: 33.3;
-    height: auto;
-    float: right;
+  width: 33.3;
+  height: auto;
+  float: right;
 }
 
-div.gallery {
+div.Main {
 
 display: flex;
 flex-wrap: wrap;
 gap: 20px 10px;
+}
+
+div.Main figure {
+ 
+margin: 0;
+
 
 
 }
 
+div.Main figcaption {
+
+text-align: center;
+font-size: .8rem;
+color: #386259;
+
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 20px 10px;      
+  justify-content: center;  
+  align-items: center;
+}
+
+div.Main {
+
+display: flex;
+flex-wrap: wrap;
+gap: 20px 10px;
+}
+
+div.Main figure {
+ 
+margin: 0;
 
 
+
+}
+
+div.Main figcaption {
+
+text-align: center;
+font-size: .8rem;
+color: #386259;
+
+}
 
 /*nav stuff here*/
 
 nav {
-  
+
   display: flex;
   justify-content: center;
-  background-color: #eaeaea ;
-  
+  background-color: #eaeaea;
+
 }
 
 
 nav ul {
-    
-    margin: 0;
-    padding: 0 10px;
-    list-style-type: none;
-    display: flex;
-  
-  list-style-type: square;
+
+  margin: 0;
+  padding: 0 10px;
+  list-style-type: none;
+  display: flex;
 }
 
- nav a:hover {
+nav a:hover {
 
-    color: white;
- }
+  color: white;
+}
 
 nav a {
-     
-    display: block;
-    padding: .83rem 1rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: #024873;
-    font-weight: 700;
+
+  display: block;
+  padding: .83rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #024873;
+  font-weight: 700;
 
 }
 
 nav li.current a {
-     
-    background-color: #2a4e6b;
-    color: #66abff;
+
+  background-color: #2a4e6b;
+  color: #66abff;
 }
-
-
-
 
 
 /*footer stuff here*/
 
 footer {
-    background-color: #eaeaea;
-    text-align: center;
-    padding: 1rem 0;
-    }
-    footer p {
-    margin: 0;
-      font: .8rem;
-    color: #333;
-    letter-spacing: 3px;
-    }
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 1rem 0;
+}
 
-  footer {
-   position: fixed;       
-   bottom: 0;             
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 999;
-  }
+footer p {
+  margin: 0;
+  font: .8rem;
+  color: #333;
+  letter-spacing: 3px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
