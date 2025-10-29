@@ -198,8 +198,13 @@ margin: 0;
 
 }
 
+div.gallery figcaption {
 
+text-align: center;
+font-size: .8rem;
+color: #386259;
 
+}
 
 
 /* footer stuff here */

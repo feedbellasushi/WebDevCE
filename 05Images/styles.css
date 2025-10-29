@@ -25,6 +25,9 @@ color: grey;
 
 }
 
+main { 
+color: #024873;
+}
 
 
 /** Image Stuff Here**/ 
@@ -42,29 +45,28 @@ img {
     float: right;
 }
 
+div.gallery {
 
+display: flex;
+flex-wrap: wrap;
+gap: 20px 10px;
 
-main { 
-color: #024873;
 
 }
+
+
 
 
 /*nav stuff here*/
 
 nav {
   
-  
-  
-  
-  
-  
-  
-  
   display: flex;
   justify-content: center;
-  background-color: #d5e1eb ;
+  background-color: #eaeaea ;
+  
 }
+
 
 nav ul {
     
