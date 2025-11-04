@@ -32,7 +32,7 @@
         <h1>Request a Delivery</h1>
        <form method="get" class="myForm" action="thanks.html">
        <fieldset>
-       <legend>Customer Info</legend>
+       <legend>Customer Information</legend>
        
         <label for="">First Name* <input type="text" name="fname" required>
         </label>
@@ -40,9 +40,51 @@
                <label for="">Last Name* <input type="text" name="lname" required>
         </label>
 
-           <label for="">Cell Number* <input type="tel" name="phone" required>
+           <label for="">Cell Number* <input type="tel" name="phone" required placeholder="987-555-1234">
         </label>
         </fieldset>
+            
+        <fieldset>
+         <legend>Delivery Method</legend>
+            <label><input type="radio" name="method" value="drone">Drone Delivery (2hrs) </label>
+             <label><input type="radio" name="method" value="cycle">Motorcycle (4hrs) </label>
+              <label><input type="radio" name="method" value="robot">Robot Delivery (6hrs) </label>
+        </fieldset>
+
+        <fieldset>
+
+           <legend>Delivery Options</legend> 
+            <Label><input type="checkbox" name="porch" value="chosen"> Front Porch </Label>
+
+            <Label><input type="checkbox" name="deck" value="chosen"> Back Deck </Label>
+
+            <Label><input type="checkbox" name="driveway" value="chosen"> Driveway </Label>
+
+            <Label><input type="checkbox" name="garage" value="chosen"> Inside the Garage </Label>
+
+            
+            <label> Preferrd Delivery Time
+                <select name="time" >
+                <option value="none">Please Select</option>
+                <option value="morning">Between 7am and 11am</option>
+                <option value="noon">Between 11am and 2pm</option>
+                <option value="afternoon">Between 2pm and 5pm</option>
+                <option value="evening"> Between 5pm and 8pm</option>
+                </select>
+            </label>
+
+
+        </fieldset>
+
+        <label> Comments 
+            <textarea name="comments">Please add any special instructions</textarea>
+        </label>
+
+
+
+
+
+
 
         <input type="submit" value="Send Delivery Request">
        </form>
