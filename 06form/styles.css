@@ -1,0 +1,186 @@
+    body {
+      font-family: "Playfair", serif;
+      margin: 0;
+    }
+
+    /*header stuff here*/
+    header {
+      text-align: center;
+      background-color: #d5e1eb;
+
+      padding: 15px;
+      color: white;
+
+    }
+
+    header span {
+
+      color: #2a4e6b;
+      font-size: 1.6rem;
+      font-weight: 900;
+    }
+
+
+    main a {
+      color: grey;
+      
+    }
+
+
+
+    /** Image Stuff Here**/
+
+    img {
+
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    img {
+      width: 35%;
+      height: auto;
+      float: center;
+    }
+
+    figure.GreatWhiteShark {
+
+    margin: 0%;
+    width: 50%;
+    float: right;
+    }
+   
+    figure.GreatWhiteShark {
+
+      width: 100%;
+      height: auto;
+
+
+    }
+    figure.GreatWhiteShark {
+
+      text-align: center;
+
+    }
+    main {
+      color: #024873;
+
+    }
+
+
+    /*nav stuff here*/
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #eaeaea;
+      
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0 10px;
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    nav a {
+
+      display: block;
+      padding: .83rem 1rem;
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #024873;
+      font-weight: 700;
+
+    }
+
+    nav li.current a {
+
+      background-color: #2a4e6b;
+      color: #66abff;
+    }
+
+    /*Contact Us info stuff*/
+   .myForm fieldset {
+ border: 1px solid #2a4e6b;
+ border-radius: 3px;
+ margin-bottom: 1rem;
+}
+
+.myForm legend {
+
+color: #2a4e6b;
+font-size: .8rem;
+
+     
+}
+
+.myForm label {
+margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], 
+.myForm textarea 
+{
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+border: solid 1px grey;
+padding: .3rem;
+width: 250px;
+border-radius: .3rem;
+font-family: "Playfair", serif;
+font-weight: 200;
+
+
+}
+
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+background-color: rgba(50, 97, 136, 0.1);
+}
+
+.myForm [type=submit] {
+background-color: #2a4e6b;
+border: none;
+padding: 1rem 2rem;
+border-radius: 10px;
+color: white;
+margin: 1rem 0 0 1vw;
+}
+
+
+
+    /*footer stuff here*/
+
+    footer {
+      background-color: #eaeaea;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    footer p {
+      margin: 0;
+      font: .8rem;
+      color: #333;
+      letter-spacing: 3px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      z-index: 999;
+    }
