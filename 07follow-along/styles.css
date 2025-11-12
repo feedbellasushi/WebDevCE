@@ -29,7 +29,7 @@ header p {
 }
 
 /* small screen nav */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 nav ul {
     margin: 0;
     padding: 0;
@@ -53,7 +53,7 @@ nav .active a {
 }/* end small screens */
 
 /* large screen nav */
-@media only screen and (max-width: 801px) {
+@media only screen and (max-width: 601px) {
 nav {
     border-top: solid 1px #E0E6E6;
     
@@ -112,7 +112,11 @@ main p {
 main a {
     color: #9c3335;
 }
+.hero {
+width: 100%;
+height: auto;
 
+}
 .angeloGallery {
     display: flex;
     flex-wrap: wrap;
@@ -131,9 +135,13 @@ main a {
 .angeloGallery img {
     width: 98%;
     height: auto;
+    border-radius: 5px;
+    
 }
 
-
+.angeloGallery img:hover {
+box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
 
 
 /* footer stuff here */
@@ -147,4 +155,9 @@ footer {
 }
 footer a {
     color: #8b5022;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
 }
