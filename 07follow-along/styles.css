@@ -27,7 +27,6 @@ header p {
     font-size: 1.22rem;
     letter-spacing: 2px;
 }
-
 /* small screen nav */
 @media only screen and (max-width: 600px) {
 nav ul {
@@ -53,7 +52,7 @@ nav .active a {
 }/* end small screens */
 
 /* large screen nav */
-@media only screen and (max-width: 601px) {
+@media only screen and (min-width: 601px) {
 nav {
     border-top: solid 1px #E0E6E6;
     
