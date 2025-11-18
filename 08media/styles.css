@@ -1,0 +1,241 @@
+*  {box-sizing: border-box;}
+
+body {
+  font-family: "Playfair", serif;
+  margin: 0;
+}
+
+/*header stuff here*/
+header {
+  text-align: center;
+  background-color: #d5e1eb;
+  padding: 15px;
+  color: white;
+
+}
+
+header span {
+
+  color: #2a4e6b;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+
+main a {
+  color: grey;
+
+}
+
+main {
+  color: #024873;
+}
+
+
+/** Image Stuff Here**/
+
+iframe {
+
+padding: 10;
+margin: auto;
+
+
+}
+
+
+
+
+
+
+
+
+
+div.Main {
+
+margin: auto;
+padding: 0 0 0 .5;
+
+}
+
+img {
+
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  width: 33.3;
+  height: auto;
+  float: right;
+}
+
+div.main {
+
+display: flex;
+flex-wrap: wrap;
+gap: 20px 10px;
+}
+
+div.main figure {
+ 
+margin: 0;
+
+}
+
+div.main figcaption {
+
+text-align: center;
+font-size: .8rem;
+color: #386259;
+
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 20px 10px;      
+  justify-content: center;  
+  align-items: center;
+}
+
+div.main {
+
+display: flex;
+flex-wrap: wrap;
+gap: 20px 10px;
+}
+
+div.main figure {
+ 
+margin: 0;
+
+}
+
+div.main figcaption {
+
+text-align: center;
+font-size: .8rem;
+color: #386259;
+
+}
+
+figure.main {
+margin: 0 0 0 10px;
+width: 50%;
+float: right;
+
+
+
+}
+figure.main img {
+
+width: 100%;
+height: auto;
+}
+
+figure.main figcaption {
+
+text-align: center;
+font-size: .75rem;
+}
+.gallery {
+width: 100%;
+height: auto;
+
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.gallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+.gallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #895772;
+}
+
+div.gallery img {
+    width: 98%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+div.gallery img:hover {
+box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+
+/*nav stuff here*/
+
+nav {
+
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea;
+
+}
+
+
+nav ul {
+
+  margin: 0;
+  padding: 0 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+nav a:hover {
+
+  color: white;
+}
+
+nav a {
+
+  display: block;
+  padding: .83rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #024873;
+  font-weight: 700;
+
+}
+
+nav li.current a {
+
+  background-color: #2a4e6b;
+  color: #66abff;
+}
+
+
+/*footer stuff here*/
+
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 1rem 0;
+  clear:both
+}
+
+footer p {
+  margin: 0;
+  font: .8rem;
+  color: #333;
+  letter-spacing: 3px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
