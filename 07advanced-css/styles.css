@@ -229,11 +229,14 @@ footer p {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+
   width: 100%;
   display: flex;
   justify-content: center;
   z-index: 999;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
 }
