@@ -1,8 +1,10 @@
 *  {box-sizing: border-box;}
 
+
 body {
   font-family: "Playfair", serif;
   margin: 0;
+  
 }
 
 /*header stuff here*/
@@ -35,7 +37,7 @@ main {
 /** Image Stuff Here**/
 
 
-div.Main {
+div.main {
 
 margin: auto;
 padding: 0 0 0 .5;
@@ -53,8 +55,16 @@ img {
 img {
   width: 33.3;
   height: auto;
-  float: right;
+ float: left;
 }
+ 
+div.Main {
+
+float: right;
+
+}
+
+
 
 div.main {
 
@@ -164,16 +174,19 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #eaeaea;
-
+  
 }
 
-
+nav {
+  border: 1px solid grey;
+}
 nav ul {
 
   margin: 0;
   padding: 0 10px;
   list-style-type: none;
   display: flex;
+  
 }
 
 nav a:hover {
@@ -182,7 +195,7 @@ nav a:hover {
 }
 
 nav a {
-
+ 
   display: block;
   padding: .83rem 1rem;
   text-decoration: none;
@@ -193,7 +206,7 @@ nav a {
 }
 
 nav li.current a {
-
+  
   background-color: #2a4e6b;
   color: #66abff;
 }
