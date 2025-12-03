@@ -10,7 +10,7 @@ body {
 /*header*/
 header {
   text-align: center;
-  background-color: #025939;
+  background-color: #47437ad5;
   padding: 15px;
   color: white;
 
@@ -31,11 +31,51 @@ main a {
 
 main {
   color: black;
+}
+
+main {
+
+margin: auto;
+padding: 0 0 0 .5;
+
+}
+/* Image */
+
+img {
+
+float: right;
+margin: auto;
+padding: 0.5rem;
+width: 40%;
+height: auto;
 
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.gallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+.gallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: black;
+}
+.gallery img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    
+}
 
-
+div.gallery img:hover {
+box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
 
 /*Nav*/
 
@@ -43,8 +83,8 @@ nav {
 
   display: flex;
   justify-content: center;
-  background-color: #8C5A3C;
-  
+  background-color: #324064;
+
 }
 
 nav {
@@ -75,10 +115,71 @@ nav a {
 
 }
 
+/*contact us*/
+.myForm fieldset {
+ border: 1px solid #324064;
+ border-radius: 3px;
+ margin-bottom: 1rem;
+}
+
+.myForm legend {
+
+color: #324064;
+font-size: .8rem;
+
+     
+}
+
+.myForm label {
+margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], 
+.myForm textarea 
+{
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+border: solid 1px grey;
+padding: .3rem;
+width: 250px;
+border-radius: .3rem;
+font-family: "Playfair", serif;
+font-weight: 200;
+
+
+}
+
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+background-color: rgba(50, 97, 136, 0.1);
+}
+
+.myForm [type=submit] {
+background-color: #2a4e6b;
+border: none;
+padding: 1rem 2rem;
+border-radius: 10px;
+color: white;
+margin: 1rem 0 0 1vw;
+}
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer {
-  background-color: #8C5A3C;
+  background-color: #47437ad5;
   text-align: center;
   padding: 1rem 0;
   clear:both
@@ -101,9 +202,10 @@ footer {
 }
 
 footer {
-
 border: 1px solid black;
+}
 
-
-
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
 }

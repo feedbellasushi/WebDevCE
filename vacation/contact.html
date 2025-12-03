@@ -22,7 +22,6 @@
 <body>
 
     <header>
-        <img src="" alt="" width="75" height="50">
         <h2> <span>The Ski Lodge</span> </h2>
     </header>
     <nav>
@@ -45,16 +44,59 @@
     </nav>
 
     <main>
-
-      
+    
         <h2>Contact Us</h2>
 
+        <form method="get" class="myForm" action="thanks.html">
+       <fieldset>
+       <legend>Customer Info</legend>
+       
+        <label for="">First Name* <input type="text" name="fname" required>
+        </label>
 
+               <label for="">Last Name* <input type="text" name="lname" required>
+        </label>
+
+           <label for="">Cell Number* <input type="tel" name="phone" required placeholder="">
+           
+            <label for="">Email* <input type="tel" name="Email" required placeholder="">
+        </label>
+        </fieldset>
+            
+       
+
+        <fieldset>
+
+           <legend>Reason of Contacting Us</legend> 
+            <Label><input type="checkbox" name="praise" value="chosen"> New package </Label>
+
+            <Label><input type="checkbox" name="complants" value="chosen"> Complants </Label>
+
+            <Label><input type="checkbox" name="tour" value="chosen"> Tour of Website </Label>
+
+            <Label><input type="checkbox" name="help" value="chosen"> Help </Label>
+
+             <Label><input type="checkbox" name="employment" value="chosen"> Employment Opportunities </Label>
+             
+             <Label><input type="checkbox" name="safety" value="chosen"> Safety Concerns </Label>
+
+          
+            <p></p>
+           
+             <label> Other 
+            <p></p><textarea name="comments">If so explain...</textarea>
+            </label>
+
+        </fieldset>
+        
 
 
 
     </main>
 
+
+ <input type="submit" value="Send Request">
+       </form>
 
 
 
