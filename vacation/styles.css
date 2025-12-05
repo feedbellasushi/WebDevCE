@@ -39,7 +39,33 @@ margin: auto;
 padding: 0 0 0 .5;
 
 }
+/*Video*/
+
+div.video {
+margin: auto;
+padding: 0.5rem;
+width: 50%;
+
+}
+
+
+
 /* Image */
+
+
+.gallery img {
+    width: 300px;       
+    height: 158px;      
+    object-fit: cover;  
+    
+    border-radius: 6px; 
+}
+
+
+
+
+
+
 
 img {
 
@@ -160,20 +186,13 @@ background-color: rgba(50, 97, 136, 0.1);
 }
 
 .myForm [type=submit] {
-background-color: #2a4e6b;
+background-color: #324064;
 border: none;
 padding: 1rem 2rem;
 border-radius: 10px;
 color: white;
-margin: 1rem 0 0 1vw;
+margin: 0.5rem 1 1 1vw;
 }
-
-
-
-
-
-
-
 
 
 /* Footer */
