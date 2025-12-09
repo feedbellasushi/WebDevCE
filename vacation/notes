@@ -1,0 +1,11 @@
+div.destination img {
+
+float: left;
+margin: auto;
+width: 45%;
+height: auto;
+text-align: right;
+display: flex;
+
+
+}

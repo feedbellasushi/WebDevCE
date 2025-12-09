@@ -2,9 +2,7 @@
 
 
 body {
-  
   margin: 0;
-  
 }
 
 /*header*/
@@ -28,7 +26,9 @@ main a {
   color: grey;
 
 }
-
+main {
+  clear: both;
+}
 main {
   color: black;
 }
@@ -39,7 +39,7 @@ margin: auto;
 padding: 0 0 0 .5;
 
 }
-/*Video*/
+/*video*/
 
 div.video {
 margin: auto;
@@ -136,6 +136,33 @@ height: auto;
 
 div.gallery img:hover {
 box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+
+
+
+
+
+.container {
+  display: flex;          /* Turn on Flexbox */
+  gap: 10px;              /* Space between items */
+  justify-content: center;/* Align items horizontally */
+  align-items: center;    /* Align items vertically */
+  
+ 
+}
+div.box img:hover{
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+.box {
+  background: #47437ad5;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Important so boxes don’t overflow */
 }
 
 /*Nav*/
